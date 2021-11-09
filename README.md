@@ -37,10 +37,16 @@
 npm install
 ```
 
+编译：
+
+```sh
+npm run compile
+```
+
 单元测试：
 
 ```sh
-npx hardhat test
+npm run test
 ```
 
 启动本地内存区块链环境：
