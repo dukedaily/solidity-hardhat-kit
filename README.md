@@ -49,7 +49,7 @@ npx hardhat test
 npx hardhat node 
 ```
 
-##1. 普通部署
+## 1. 普通部署
 方式1，使用hardhat-deploy包部署，具体编写查看`deploy`文件夹
 
 ```js
@@ -68,7 +68,7 @@ npx hardhat run --network localhost scripts/deploy.ts
 npx hardhat run scripts/testV1.ts --network localhost
 ```
 
-##2. 可升级部署
+## 2. 可升级部署
 
 ### - 以可升级方式部署合约
 
@@ -128,7 +128,7 @@ npx hardhat --network kovan deploy
 
 
 
-##==2. 可升级部署==
+## 2. 可升级部署
 
 > 先备份.openzeppelin下面的kovan.json文件（若有）
 
